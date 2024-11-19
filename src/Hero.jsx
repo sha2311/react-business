@@ -1,4 +1,5 @@
 import React from 'react'
+import hero from "../src/assets/hero.png"
 
 function Hero() {
   return (
@@ -16,7 +17,7 @@ function Hero() {
 
         </div>
         <div className='flex-1 '>
-            <img className='w-full h-auto md:max-w-lg' src="/hero.png" alt="" />
+            <img className='w-full h-auto md:max-w-lg' src={hero} alt="" />
         </div>
     </section>
       
