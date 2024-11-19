@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './App.css'
 import Navbar from './Navbar'
-import Hero from './hero'
+import Hero from './Hero'
 import Presentation from './Presentation'
 import SlideMenu from './SlideMenu'
 import ScroillLogo from './ScroillLogo'
