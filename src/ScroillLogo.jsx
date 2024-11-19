@@ -1,16 +1,22 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
+import google from "../src/assets/google.png";
+import stripe from "../src/assets/stripe.png";
+import uber from "../src/assets/uber.png";
+import nick from "../src/assets/nick.png";
+import air from "../src/assets/air.png";
+import master from "../src/assets/master.png";
 
 function ScroillLogo() {
     const scrollArray = [
    
-        {link: 'google.png'},
-        {link: 'stripe.png'},
-        {link: 'uber.png'},
-        {link: 'stripe.png'},
-        {link: 'nick.png'},
-        {link: 'air.png'},
-        {link: 'master.png'}
+        {link: google },
+        {link: stripe  },
+        {link: uber },
+        {link: stripe },
+        {link:  nick },
+        {link: air },
+        {link:  master}
     ]
   return (
     <div className='my-24'>

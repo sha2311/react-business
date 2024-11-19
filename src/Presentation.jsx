@@ -1,26 +1,32 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowForward';
 import React from 'react'
-
+import card1 from "../src/assets/Group 1.png";
+import card2 from "../src/assets/Group 2.png";
+import card3 from "../src/assets/Group 3.png";
+import card4 from "../src/assets/Group 4.png";
+import socialfb from "../src/assets/fb.png";
+import socialtw from "../src/assets/twitter.png";
+import socialins from "../src/assets/instagram.png";
 
 function Presentation() {
 const presentData = [
     {
-        source: "Group 1.png",
+        source: card1,
         heading: "Managment",
         text: "Software platform for running your new internet business"
     },
     {
-        source: "Group 2.png",
+        source: card2,
         heading: "Entertainment",
         text: "Software platform for running your new internet business"
     },
     {
-        source: "Group 3.png",
+        source: card3,
         heading: "Marketing",
         text: "Software platform for running your new internet business"
     },
     {
-        source: "Group 4.png",
+        source: card4,
         heading: "References",
         text: "Software platform for running your new internet business"
     }
@@ -29,9 +35,9 @@ const presentData = [
 
 
  const socialIcon = [
-    {link: 'fb.png'},
-    {link: 'twitter.png'},
-    {link: 'instagram.png'}
+    {link: socialfb},
+    {link: socialtw},
+    {link: socialins}
  ] 
 
   return (

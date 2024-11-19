@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import img1 from "../src/assets/Group 43.png"
+import img2 from "../src/assets/Group 4.png"
+import img3 from "../src/assets/Group 3.png"
+
 
 
 function SlideMenu() {
@@ -8,21 +12,21 @@ function SlideMenu() {
     const slideAuto = [
         {
             id: 1,
-            imgage: "Group 43.png",
+            imgage: img1,
             heading: "Make more time for the work that matters most",
             text: "Best software platform for running an internet business."
 
         },
         {
             id: 2,
-            imgage: "Group 4.png",
+            imgage:img2,
             heading: "Make more time for the work that matters most",
             text: "Best software platform for running an internet business."
 
         },
         {
             id: 3,
-            imgage: "Group 3.png",
+            imgage:img3,
             heading: "Make more time for the work that matters most",
             text: "Best software platform for running an internet business."
 

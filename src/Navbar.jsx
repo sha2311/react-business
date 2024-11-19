@@ -2,7 +2,7 @@ import React from 'react'
 import {AppBar,Toolbar, Typography, Button, Drawer, List, ListItem, ListItemText, useMediaQuery, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'
 import { useTheme } from '@mui/material/styles';
-
+import logo from "../src/assets/logo.png"
 
 function Navbar() {
 
@@ -30,7 +30,7 @@ function Navbar() {
 
   <>
   <Typography  sx={{ flexGrow:1, mr: 2 }}>
-     <img className='logo' src="/logo.png" alt="" />
+     <img className='logo' src={logo} alt="" />
   </Typography>
     
     {navItems.map((item)=>(

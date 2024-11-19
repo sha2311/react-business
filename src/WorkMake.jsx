@@ -1,6 +1,8 @@
 import React from 'react'
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowForward';
+import img1 from "../src/assets/Group 44.png";
+import img2 from "../src/assets/Group 45.png"
 
 function WorkMake() {
   return (
@@ -8,7 +10,7 @@ function WorkMake() {
     <section className='gap-24 py-16 px-6 lg:px-16 max-w-[1400px] mx-auto' >
         <div className='flex flex-col-reverse lg:flex-row items-center justify-between'>
             <div className='flex-1 items-start'>
-                <img className='w-full max-w-lg h-auto' src="/Group 44.png" alt="" />
+                <img className='w-full max-w-lg h-auto' src={img1} alt="" />
             </div>
 
             <div className='flex-1 flex flex-col gap-6'>
@@ -45,7 +47,7 @@ function WorkMake() {
             </div>
 
             <div className='flex-1 items-start'>
-                <img className='w-full max-w-lg h-auto' src="/Group 45.png" alt="" />
+                <img className='w-full max-w-lg h-auto' src={img2} alt="" />
             </div>
         </div>
     </section>

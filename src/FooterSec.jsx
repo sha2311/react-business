@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from "@mui/material";
-import { list } from 'postcss';
+import logo2 from "../src/assets/footerlg.png"
 
 function FooterSec() {
 
@@ -26,7 +26,7 @@ function FooterSec() {
   return (
     <footer className="w-full bg-black p-8">
       <div className="flex flex-row justify-center flex-wrap items-center  gap-y-6 gap-x-12 sm:gap-x-24 pb-5 text-white text-center ">
-        <img src="/footerlg.png" alt="logo-ct" className="w-44" />
+        <img src={logo2} alt="logo-ct" className="w-44" />
         <ul className="flex flex-wrap  items-center gap-y-2 gap-x-8">
           <li>
               <Typography className='flex flex-col sm:flex-row lg:gap-28  gap-16 flex-wrap px-6 justify-between mx-auto '>

@@ -1,26 +1,29 @@
 import React from 'react'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowForward';
+import card1 from "../src/assets/Group 38.png";
+import card2 from "../src/assets/Group 39.png";
+import card3 from "../src/assets/Group 40.png";
 
 function CardSec() {
 
     const newCard = [
         {
             id : '1',
-            imgage: 'Group 38.png',
+            imgage: card1,
             heading: 'Make myspace your best designed space',
             title: 'A lot of different components that will help you create the perfect look for your project',
             buttonLevel: 'Design'
         },
         {
             id : '2',
-            imgage: 'Group 39.png',
+            imgage: card2,
             heading: 'My company culture has changed today',
             title: 'A lot of different components that will help you create the perfect look for your project',
             buttonLevel: '3D illustrations'
         },
         {
             id : '3',
-            imgage: 'Group 40.png',
+            imgage: card3,
             heading: 'Professionals in craft! All products were super great',
             title: 'A lot of different components that will help you create the perfect look for your project',
             buttonLevel: 'Development'

@@ -1,4 +1,5 @@
 import React from 'react'
+import bomb from "../src/assets/Group 46.png"
 
 function Bomb() {
   return (
@@ -14,7 +15,7 @@ function Bomb() {
             </div>
 
             <div className='flex-1'>
-                <img  src="/Group 46.png" alt="" />
+                <img  src={bomb} alt="" />
             </div>
         </div>
      </section>
